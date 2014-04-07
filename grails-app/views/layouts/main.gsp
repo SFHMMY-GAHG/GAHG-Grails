@@ -27,9 +27,9 @@
 <r:layoutResources />
 </head>
 <body>
-	<div id="grailsLogo" role="banner">
-		<a href="http://grails.org"><img
-			src="${resource(dir: 'images', file: 'grails_logo.png')}"
+	<div id="grailsLogo" role="banner" style="text-align: center;">
+		<a href="#"><img
+			src="${resource(dir: 'images', file: 'gahg-site-logo.png')}"
 			alt="Grails" /></a>
 	</div>
 	<g:layoutBody />
