@@ -20,6 +20,6 @@ class AndroidController {
 	}
 	def postit(){
 		def all_posts=new Post()
-		[posts:Post.all]
+		[posts:Post.all.reverse()]
 	}
 }
