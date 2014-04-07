@@ -16,7 +16,7 @@
 	<tr>
     <td>${p.username}</td>
     <td>${p.post }</td>
-    <td>${p.date_created }</td>
+    <td>${p.dateCreated }</td>
   </tr>
 </g:each>
 </table>
