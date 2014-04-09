@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="layout" content="main" />
 <meta http-equiv="refresh" content="5" >
-<title>Insert title here</title>
+<title>Your Twitter (NOT!)</title>
 </head>
 <body>
 	<div class="body">

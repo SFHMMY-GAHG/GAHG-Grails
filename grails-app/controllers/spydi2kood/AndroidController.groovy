@@ -4,8 +4,10 @@ import grails.converters.JSON
 
 class AndroidController {
 
-    def index() { }
-	def show(){
+    def index() { 
+		redirect (action: "postit")
+	}
+	def postit(){
 		def res
 		def remote_post=new Post()
 		remote_post.username=params.username
@@ -18,7 +20,7 @@ class AndroidController {
 		}
 		render res as JSON
 	}
-	def postit(){
+	def show(){
 		def all_posts=new Post()
 		[posts:Post.all.reverse()]
 	}
