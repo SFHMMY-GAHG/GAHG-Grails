@@ -5,7 +5,7 @@ import grails.converters.JSON
 class AndroidController {
 
     def index() { 
-		redirect (action: "postit")
+		redirect (action: "show")
 	}
 	def postit(){
 		def res
@@ -21,7 +21,7 @@ class AndroidController {
 		render res as JSON
 	}
 	def show(){
-		def all_posts=new Post()
+	
 		[posts:Post.all.reverse()]
 	}
 }
